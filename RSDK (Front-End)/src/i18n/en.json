@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Welcome to our Landing Page",
+    "details": "View more details"
+  },
+  "header": {
+    "home": "About Us",
+    "details": "Activities",
+    "career": "Careers",
+    "responsibilities": "Responsibility",
+    "contacts": "Contact Us"
+  }
+}
