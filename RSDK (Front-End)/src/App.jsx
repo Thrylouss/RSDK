@@ -1,21 +1,30 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
 import HomePage from "./pages/HomePage.jsx";
-import Details from "./pages/Details.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import CareerPage from "./pages/CareerPage.jsx";
+import ResponsibilityPage from "./pages/ResponsibilityPage.jsx";
+import DrillingPage from "./pages/DrillingPage.jsx";
+import MiningPage from "./pages/MiningPage.jsx";
+import SalePage from "./pages/SalePage.jsx";
 
 function App() {
-
     return (
-        <BrowserRouter>
+        <HashRouter>
+            <Header />
             <div id="wrapper">
-                <Header/>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/details" element={<Details />} />
+                    <Route path="/sale" element={<SalePage />} />
+                    <Route path="/career" element={<CareerPage />} />
+                    <Route path="/mining" element={<MiningPage />} />
+                    <Route path="/drilling" element={<DrillingPage />} />
+                    <Route path="/responsibility" element={<ResponsibilityPage />} />
                 </Routes>
             </div>
-        </BrowserRouter>
-    )
+            <Footer />
+        </HashRouter>
+    );
 }
 
-export default App
+export default App;

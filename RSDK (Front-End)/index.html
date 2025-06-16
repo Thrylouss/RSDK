@@ -2,12 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta name="description" content="Профессиональные буровзрывные работы (БВР) по всему Узбекистану. Высокое качество, безопасность, опыт более 15 лет.">
+    <meta name="keywords" content="Буровзрывные работы, БВР, бурение, взрывные работы, БВР Узбекистан, буровые работы, карьерные работы, RSDK">
+    <title>Буровзрывные работы в Узбекистане | RSDK</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=en_US&apikey=0146ab7c-622d-434d-bd33-4b38a2da728b" type="text/javascript"></script>
+    <script>
+      ymaps.ready(init);
+      function init() {
+        var myMap = new ymaps.Map("map", {
+          center: [41.275683, 69.241271],
+          zoom: 17,
+        });
+
+        var myPlacemark = new ymaps.Placemark(
+                [41.270139, 69.236490], // координаты метки
+                {
+                  hintContent: 'RSDK Office',
+                  balloonContent: 'Мы находимся здесь!',
+                },
+                {
+                  preset: 'islands#icon',
+                  iconColor: '#ff0000', // цвет иконки
+                }
+        );
+
+        myMap.geoObjects.add(myPlacemark); // добавляем метку на карту
+      }
+    </script>
   </body>
 </html>

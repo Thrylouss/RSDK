@@ -1,0 +1,164 @@
+.container {
+    height: 900px;
+    display: flex;
+}
+
+.background {
+    width: 100vw;
+    height: 900px;
+    position: absolute;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../assets/heavy-construction.jpg');
+}
+
+.titleCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.titleText {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    color: var(--text-color);
+}
+
+.titleText p {
+    font-size: 80px;
+    font-weight: 700;
+    width: 800px;
+}
+
+.bidForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.bidForm input {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--black-text-color);
+}
+
+.bidForm div:nth-child(2) {
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--black-text-color);
+}
+
+.bidForm input:nth-child(2) {
+    width: 100%;
+    padding: 20px 20px 20px 50px;
+    font-size: 24px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--black-text-color);
+}
+
+.bidForm div {
+    background-color: white;
+}
+
+.bidForm textarea {
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--black-text-color);
+}
+
+.bidForm button {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--black-text-color);
+    cursor: pointer;
+}
+
+.bidForm button:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+@media (max-width: 1600px) {
+    .titleCont {
+        width: 100%;
+        padding: 40px;
+
+    }
+
+    .titleText {
+        width: 60%;
+    }
+
+    .titleText p{
+        width: 100%;
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 860px) {
+    .titleCont {
+        padding: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .titleText {
+        width: 100%;
+    }
+
+    .bidForm input:nth-child(2) {
+        width: 100%;
+        padding: 20px 20px 20px 50px;
+        font-size: 20px;
+        height: 60px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--text-color);
+        color: var(--black-text-color);
+    }
+
+    .titleText p {
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .bidForm input, .bidForm textarea, .bidForm button {
+        font-size: 1em;
+    }
+
+    .background, .container {
+        height: 600px;
+    }
+
+}

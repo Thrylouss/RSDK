@@ -1,7 +1,94 @@
 {
   "home": {
-    "title": "Welcome to our Landing Page",
+    "title": "Your Reliable Partner Since 2007",
+    "details": "View more details",
+    "partners": "Our partners",
+    "bid": "Contact us, we will be happy to help you!",
+    "send": "Send",
+    "name": "Your name",
+    "phone": "Your phone",
+    "message": "Your message"
+  },
+  "career": {
+    "title": "Career",
+    "details": "One of the competitive advantages of the OOO «REM STROY DOR KOMPLEKT» group is its employees who are highly qualified and have experience working in international companies and projects.\n\nWe strive to form and develop a close-knit team of professionals - from senior managers to technical and blue-collar workers who are able to effectively solve problems of any complexity.",
+    "strive": "We strive to form and develop a close-knit team of professionals - from senior managers to technical and blue-collar workers who are able to effectively solve problems of any complexity.",
+    "policy": "Our personnel policy is aimed at",
+    "option1": "Creating decent and competitive working conditions",
+    "option2": "Improving training and motivation systems",
+    "option3": "Attracting young specialists and graduates of specialized universities",
+    "bid": "If you are an engineer, drilling and blasting specialist or mining equipment specialist and want to become part of our team, apply for a job right now!",
+    "send": "Leave a request and we will contact you!"
+  },
+  "responsibilities": {
+    "title": "Responsibilities",
+    "details": "At REM STROY DOR KOMPLEKT we are aware of the high level of responsibility we bear when performing drilling and blasting operations and supplying explosive materials.",
+    "guarantee": "We guarantee",
+    "trust": "We value the trust of our partners and clients, so we don't just do the job, we guarantee its results. Reliability, safety and quality are the foundation of our reputation.",
+    "option1": "Quality and safety",
+    "subOption1": "We strictly comply with all technical regulations, safety standards and environmental standards of the Republic of Uzbekistan",
+    "option2": "Professional approach",
+    "subOption2": "Work is performed by experienced specialists with specialized qualifications, using certified materials and proven equipment",
+    "option3": "Guarantee for the work performed and the materials supplied",
+    "subOption3": "We are confident in our quality and are ready to take responsibility for the final result",
+    "option4": "Compliance with deadlines",
+    "subOption4": "We strictly control logistics and the work schedule",
+    "option5": "Transparency and legality",
+    "subOption5": "All company activities are carried out in accordance with licenses, regulations and contractual obligations",
+    "final": "We value the trust of our partners and clients, so we do not just do the work, but guarantee its result. Reliability, safety and quality are the basis of our reputation."
+  },
+  "drilling": {
+    "title": "Drilling and blasting operations",
+    "option1": "OOO REM STROY DOR KOMPLEKT has been engaged in drilling and blasting operations for over 15 years. During this time, our team has gained extensive experience, having successfully implemented dozens of projects of varying complexity and specificity.",
+    "option2": "We perform work in a variety of conditions - from standard quarries to areas with increased complexity. Particular attention is paid to blasting operations in flooded wells, which require high precision, professionalism and strict adherence to safety precautions.",
+    "option3": "Our company also carries out drilling in flooded and geologically unstable objects that require a specialized approach and the use of modern equipment. All work is performed by qualified specialists with experience in industrial zones, quarries, mining and other difficult conditions.",
+    "option4": "A separate area of ​​​​activity is the supply of explosives and initiation means. We provide our partners with certified products that meet all safety requirements and technical standards. We cooperate only with proven manufacturers and comply with all the rules for storage and transportation of explosives.",
+    "option5": "OOO 'REM STROY DOR KOMPLEKT' bears full responsibility for the quality and safety of the work performed and the products supplied. All processes are supervised by experienced technical specialists and comply with the current legislation of the Republic of Uzbekistan.",
+    "option6": "Our goal is to provide reliable and professional solutions in the field of drilling and blasting operations and supply of explosives throughout the country."
+  },
+  "sale": {
+    "title": "Sale of explosive materials",
+    "option1": "Sale of explosives\nREM STROY DOR KOMPLEKT LLC sells explosives in the Republic of Uzbekistan, providing industrial enterprises with reliable and certified materials.",
+    "option2": "Our activities cover",
+    "option3": "Production of simple industrial explosives",
+    "option4": "Import of explosives from foreign suppliers",
+    "option5": "Wholesale and supply of explosives throughout the country",
+    "option6": "Supply of the largest state-owned enterprises, including NGMK (Navoi Mining and Metallurgical Plant)",
+    "option7": "All processes - from procurement and storage to transportation and transfer of products to the customer - are carried out in compliance with strict safety standards and within the framework of current legislation",
+    "option8": "We guarantee",
+    "option9": "Quality and compliance of products regulatory requirements",
+    "option10": "Licensed activities and transparent terms of cooperation",
+    "option11": "Timely and reliable deliveries",
+    "option12": "REM STROY DOR KOMPLEKT is your responsible partner in the field of explosives sales in Uzbekistan",
+    "option13": "Compliance with all rules for storage and transportation of explosives"
+  },
+  "mining": {
+    "title": "Mining machinery services",
+    "option1": "Mining machinery services\nREM STROY DOR KOMPLEKT LLC provides specialized mining machinery services for drilling and blasting and related operations",
+    "option2": "We have at our disposal:",
+    "option3": "A wide range of drilling rigs suitable for various types of rocks and operating conditions",
+    "option4": "Specialized tractors and vehicles for the safe transportation of explosive materials (EM)",
+    "option5": "Qualified operators and maintenance personnel.",
+    "option6": "We provide",
+    "option7": "Technical support at all stages of work",
+    "option8": "Regular maintenance and diagnostics of equipment",
+    "option9": "Compliance with all safety standards and requirements of the legislation of the Republic of Uzbekistan",
+    "option10": "Our rental services and support of mining special equipment allow the customer to reduce costs, increase the efficiency of work and ensure the smooth execution of tasks at sites of any complexity"
+  },
+  "directions": {
+    "title": "Our Directions",
+    "explosion": "Drilling and blasting operations",
+    "construction": "Mining machinery services",
+    "create": "Sale of explosive materials",
     "details": "View more details"
+  },
+  "about": {
+    "title": "Explore our specialization",
+    "description": "<p style='text-indent: 2em;'>The company REM STROY DOR KOMPLEKT was founded in 2007 and began its activities in the field of drilling and blasting operations and today is one of the leading organizations in this field.</p><p style='text-indent: 2em;'>Thanks to many years of experience, highly qualified specialists and advanced technologies, REM STROY DOR KOMPLEKT successfully implements large-scale projects and is a reliable partner for large industrial enterprises.</p>"
+  },
+  "activity": {
+    "title": "Full range of services",
+    "description": "<p style='text-indent: 2em;'>We carry out drilling and blasting operations with high efficiency and in full compliance with all safety standards, using modern technologies.\nEach stage of the work is under strict control and is conducted in accordance with international safety standards.</p>"
   },
   "header": {
     "home": "About Us",
@@ -9,5 +96,18 @@
     "career": "Careers",
     "responsibilities": "Responsibility",
     "contacts": "Contact Us"
+  },
+  "footer": {
+    "one": "We are ready to assist you and provide all the necessary information",
+    "sections": "Sections",
+    "aboutCompany": "About the Company",
+    "activities": "Activities",
+    "careers": "Careers",
+    "responsibility": "Responsibility",
+    "contacts": "Contacts",
+    "number": "+99855 508 00 77",
+    "mail": "info@rsdk.uz",
+    "address": "Uzbekistan, Tashkent, Yakkasaray District, Shota Rustaveli Street 82B, Office 4"
   }
+
 }
